@@ -95,6 +95,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\damia\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["leap-spooky.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\damia\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\leap-spooky.nvim",
+    url = "https://github.com/ggandor/leap-spooky.nvim"
+  },
   ["leap.nvim"] = {
     loaded = true,
     path = "C:\\Users\\damia\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\leap.nvim",

@@ -77,5 +77,7 @@ use {"tpope/vim-repeat"}
 
 use {"ggandor/leap.nvim"}
 
+use {"ggandor/leap-spooky.nvim"}
+
 end)
 
