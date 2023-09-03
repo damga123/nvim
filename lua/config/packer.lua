@@ -79,5 +79,7 @@ use {"ggandor/leap.nvim"}
 
 use {"ggandor/leap-spooky.nvim"}
 
+use {"tpope/vim-fugitive"}
+
 end)
 
