@@ -85,5 +85,9 @@ use {"lewis6991/gitsigns.nvim"}
 
 use {"mfussenegger/nvim-lint"}
 
+use {"mfussenegger/nvim-dap"}
+
+use {"mfussenegger/nvim-dap-python"}
+
 end)
 
