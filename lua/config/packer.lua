@@ -83,5 +83,7 @@ use {"tpope/vim-fugitive"}
 
 use {"lewis6991/gitsigns.nvim"}
 
+use {"mfussenegger/nvim-lint"}
+
 end)
 
