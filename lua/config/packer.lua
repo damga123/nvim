@@ -81,5 +81,7 @@ use {"ggandor/leap-spooky.nvim"}
 
 use {"tpope/vim-fugitive"}
 
+use {"lewis6991/gitsigns.nvim"}
+
 end)
 
