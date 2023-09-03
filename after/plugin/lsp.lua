@@ -5,6 +5,7 @@ lsp.ensure_installed({
     'pylsp',
     'cssls',
     'lua_ls',
+    'pylint',
 })
 
 lsp.on_attach(function(client, bufnr)
