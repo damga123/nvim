@@ -10,7 +10,7 @@ vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n","<C-p>", "<cmd>''+p<CR>")
 
-vim.keymap.set("n", "<leader>r", ":!%:p<CR>")
+-- vim.keymap.set("n", "<leader>r", require('runner').run)
 vim.keymap.set("n", "<leader>fp", function() require'telescope'.extensions.projects.projects{} end)
 
 vim.keymap.set("n", "<C-h>", "<C-W>h")
