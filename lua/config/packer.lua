@@ -100,5 +100,7 @@ use {
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
 
+use {"windwp/nvim-autopairs"}
+
 end)
 
