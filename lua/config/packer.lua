@@ -95,5 +95,10 @@ use {"mfussenegger/nvim-dap-python"}
 
 use {"airblade/vim-rooter"}
 
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
+
 end)
 
