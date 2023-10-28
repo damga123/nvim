@@ -102,5 +102,7 @@ use {
 
 use {"windwp/nvim-autopairs"}
 
+use {"github/copilot.vim"}
+
 end)
 
