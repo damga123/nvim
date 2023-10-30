@@ -21,3 +21,5 @@ vim.keymap.set("n", "<leader>v", "<cmd>vsplit<CR>")
 vim.keymap.set("n", "<leader>h", "<cmd>split<CR>")
 
 vim.keymap.set("x", "<leader>p", "\"_dP")
+
+vim.keymap.set('i', '<C-j>', 'copilot#Accept("<CR>")', { expr = true, silent = true})
