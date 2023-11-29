@@ -24,4 +24,4 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 
 vim.keymap.set('i', '<C-j>', 'copilot#Accept("<CR>")', { expr = true, silent = true})
 
-vim.keymap.set("n", "<leader>ccp", '<cmd>!g++ -ggdb "%" && a.exe<CR>')
+vim.keymap.set("n", "<leader>ccp", '<cmd>!g++ -ggdb -pedantic-errors "%" && a.exe<CR>')
