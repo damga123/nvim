@@ -23,3 +23,5 @@ vim.keymap.set("n", "<leader>h", "<cmd>split<CR>")
 vim.keymap.set("x", "<leader>p", "\"_dP")
 
 vim.keymap.set('i', '<C-j>', 'copilot#Accept("<CR>")', { expr = true, silent = true})
+
+vim.keymap.set("n", "<leader>ccp", '<cmd>!g++ -ggdb "%" && a.exe<CR>')
