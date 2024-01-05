@@ -54,17 +54,11 @@ return require('packer').startup(function(use)
         }
     }
 
-    use {
-        'antosha417/nvim-lsp-file-operations',
-        requires = {
-            { "nvim-lua/plenary.nvim" },
-            { "kyazdani42/nvim-tree.lua" },
-        }
-    }
     use {"mfussenegger/nvim-lint"}
 
     -- Navigation
-    use('theprimeagen/harpoon')
+    use { "nvim-tree/nvim-tree.lua" }
+    use {'theprimeagen/harpoon'}
     use {"ggandor/leap.nvim"}
     use {"ggandor/leap-spooky.nvim"}
 
