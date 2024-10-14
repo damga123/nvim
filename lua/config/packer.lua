@@ -96,6 +96,7 @@ return require('packer').startup(function(use)
     use {"airblade/vim-rooter"}
     use {"tpope/vim-repeat"}
     use {"tpope/vim-surround"}
+    use {"voldikss/vim-floaterm"}
 
 end)
 
