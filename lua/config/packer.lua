@@ -88,6 +88,7 @@ return require('packer').startup(function(use)
     -- Debugging
     use {"mfussenegger/nvim-dap"}
     use {"rcarriga/nvim-dap-ui"}
+    use {"nvim-neotest/nvim-nio"}
     use {"mfussenegger/nvim-dap-python"}
 
     -- Misc
