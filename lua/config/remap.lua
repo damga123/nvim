@@ -31,3 +31,12 @@ vim.keymap.set("x", "Q", ":norm @q<CR>")
 vim.keymap.set("n", "<leader>ft", ':FloatermNew --name=myfloat --height=0.8 --width=0.7 --autoclose=2 nu <CR> ')
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>:q<CR>")
 vim.keymap.set('n', "t", ":FloatermToggle myfloat<CR>")
+
+-- Git
+vim.keymap.set("n", "<leader>ga.", ":Git add .<CR>")
+vim.keymap.set("n", "<leader>gcm", ":Git commit -m \"")
+vim.keymap.set("n", "<leader>gd", ":Git diff<CR>")
+vim.keymap.set("n", "<leader>gs", ":Git status<CR>")
+vim.keymap.set("n", "<leader>gps", ":Git push<CR>")
+vim.keymap.set("n", "<leader>gpl", ":Git pull<CR>")
+
